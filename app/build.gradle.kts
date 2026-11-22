@@ -6,13 +6,13 @@ plugins {
 }
 
 android {
-    namespace = "com.omnitracker.renp"
+    namespace = "com.omnitracker.renpho"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.omnitracker.renp"
+        applicationId = "com.omnitracker.renpho"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Renp"
+rootProject.name = "Renpho"
 include(":app")
  
