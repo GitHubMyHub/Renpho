@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Renp</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="done">Done</string>
+    <string name="retry">Retry</string>
+    <string name="back">Back</string>
+    <string name="ok">OK</string>
+    <string name="not_available">—</string>
+
+    <!-- Metrics -->
+    <string name="metric_weight">Weight</string>
+    <string name="metric_bmi">BMI</string>
+    <string name="metric_body_fat">Body fat</string>
+    <string name="metric_visceral_fat">Visceral fat</string>
+    <string name="metric_subcutaneous_fat">Subcutaneous fat</string>
+    <string name="metric_water">Body water</string>
+    <string name="metric_muscle_mass">Muscle mass</string>
+    <string name="metric_skeletal_muscle">Skeletal muscle</string>
+    <string name="metric_fat_free_mass">Fat-free body weight</string>
+    <string name="metric_bone_mass">Bone mass</string>
+    <string name="metric_protein">Protein</string>
+    <string name="metric_bmr">BMR</string>
+    <string name="metric_metabolic_age">Metabolic age</string>
+
+    <!-- Status -->
+    <string name="status_low">Low</string>
+    <string name="status_normal">Normal</string>
+    <string name="status_high">High</string>
+    <string name="status_very_high">Very high</string>
+    <string name="status_excellent">Excellent</string>
+
+    <!-- Profile -->
+    <string name="profile_setup_title">Create your profile</string>
+    <string name="profile_edit_title">Edit profile</string>
+    <string name="profile_intro">Height, age and sex are needed to calculate your body composition.</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_sex">Sex</string>
+    <string name="sex_male">Male</string>
+    <string name="sex_female">Female</string>
+    <string name="profile_birth_date">Birth date</string>
+    <string name="profile_select_date">Select date</string>
+    <string name="profile_height_cm">Height (cm)</string>
+    <string name="profile_height_ft">Height (ft)</string>
+    <string name="profile_height_in">(in)</string>
+    <string name="profile_goal_weight">Goal weight (%1$s, optional)</string>
+    <string name="profile_continue">Continue</string>
+    <string name="profile_age">%1$d years</string>
+    <string name="error_height_invalid">Enter a height between 90 and 250 cm</string>
+    <string name="error_birth_date">Select a valid birth date</string>
+    <string name="error_goal_invalid">Enter a valid goal weight</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_greeting">Hi, %1$s</string>
+    <string name="dashboard_greeting_anon">Hi there</string>
+    <string name="dashboard_last_measured">Last measured %1$s</string>
+    <string name="dashboard_empty_title">No measurements yet</string>
+    <string name="dashboard_empty_body">Step on your scale to take your first measurement, or add one manually.</string>
+    <string name="action_weigh">Step on scale</string>
+    <string name="action_add_manual">Add manually</string>
+    <string name="dashboard_change_since">%1$s since last time</string>
+    <string name="dashboard_goal">Goal %1$s</string>
+    <string name="dashboard_to_go">%1$s to go</string>
+    <string name="dashboard_goal_reached">Goal reached!</string>
+    <string name="dashboard_no_impedance">Body composition needs a barefoot measurement on the scale\'s electrodes.</string>
+    <string name="dashboard_body_composition">Body composition</string>
+
+    <!-- Measure -->
+    <string name="measure_title">Weigh in</string>
+    <string name="measure_permission_title">Bluetooth access needed</string>
+    <string name="measure_permission_body">Allow access to nearby devices so the app can find and connect to your scale.</string>
+    <string name="measure_grant">Grant access</string>
+    <string name="measure_bt_off_title">Bluetooth is off</string>
+    <string name="measure_bt_off_body">Turn on Bluetooth to connect to your scale.</string>
+    <string name="measure_enable_bt">Turn on Bluetooth</string>
+    <string name="measure_scanning_title">Looking for your scale…</string>
+    <string name="measure_scanning_body">Step on the scale to wake it up. Stand barefoot for body composition.</string>
+    <string name="measure_found_scales">Scales nearby — tap to connect</string>
+    <string name="measure_paired_hint">Will connect automatically to %1$s</string>
+    <string name="measure_connecting">Connecting to %1$s…</string>
+    <string name="measure_connected">Connected — step on the scale</string>
+    <string name="measure_measuring">Measuring… stand still</string>
+    <string name="measure_result_title">Measurement saved</string>
+    <string name="measure_result_no_impedance">No impedance detected, so only weight and BMI were recorded. Stand barefoot for full body composition.</string>
+    <string name="measure_disconnected">The scale disconnected before a measurement was completed.</string>
+    <string name="measure_no_scale_found">No scale found</string>
+    <string name="measure_no_scale_found_body">Make sure the scale is awake (step on it) and close to your phone.</string>
+    <string name="measure_scan_again">Scan again</string>
+    <string name="measure_measure_again">Measure again</string>
+    <string name="measure_discard">Discard</string>
+    <string name="measure_discarded">Measurement discarded</string>
+    <string name="measure_no_profile">Create a profile first.</string>
+    <string name="error_bt_unavailable">This device does not support Bluetooth LE.</string>
+    <string name="error_scan_failed">Could not scan for devices.</string>
+    <string name="error_connection_failed">Could not connect to the scale.</string>
+    <string name="error_unsupported_device">This device is not a supported scale.</string>
+    <string name="error_permission">Bluetooth permission was denied.</string>
+
+    <!-- History -->
+    <string name="history_title">History</string>
+    <string name="history_empty">No measurements in this period</string>
+    <string name="range_week">1W</string>
+    <string name="range_month">1M</string>
+    <string name="range_3months">3M</string>
+    <string name="range_year">1Y</string>
+    <string name="range_all">All</string>
+    <string name="history_min">Min</string>
+    <string name="history_max">Max</string>
+    <string name="history_avg">Average</string>
+    <string name="history_change">Change</string>
+    <string name="history_measurements">Measurements</string>
+    <string name="source_scale">Scale</string>
+    <string name="source_manual">Manual</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Measurement</string>
+    <string name="detail_delete_title">Delete measurement?</string>
+    <string name="detail_delete_body">This cannot be undone.</string>
+    <string name="detail_impedance">Impedance</string>
+    <string name="detail_source">Source</string>
+    <string name="detail_impedance_value">%1$d Ω</string>
+
+    <!-- Add entry -->
+    <string name="add_title">Add measurement</string>
+    <string name="add_weight">Weight (%1$s)</string>
+    <string name="add_date">Date</string>
+    <string name="add_time">Time</string>
+    <string name="add_hint">Manual entries contain weight and BMI only.</string>
+    <string name="error_weight_invalid">Enter a weight between 2 and 300 kg</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_profile">Profile</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_weight_unit">Weight</string>
+    <string name="settings_height_unit">Height</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_lb">lb</string>
+    <string name="unit_st">st</string>
+    <string name="unit_cm">cm</string>
+    <string name="unit_ft_in">ft/in</string>
+    <string name="settings_goal">Goal weight</string>
+    <string name="settings_goal_none">Not set</string>
+    <string name="settings_goal_remove">Remove goal</string>
+    <string name="settings_scale">Scale</string>
+    <string name="settings_scale_none">No scale paired yet. Your scale is paired on the first measurement.</string>
+    <string name="settings_forget_scale">Forget</string>
+    <string name="settings_data">Data</string>
+    <string name="settings_export">Export as CSV</string>
+    <string name="settings_export_chooser">Export measurements</string>
+    <string name="settings_delete_all">Delete all measurements</string>
+    <string name="settings_delete_all_body">All measurements will be permanently deleted.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_disclaimer">Body composition values are estimates based on bio-impedance and published equations. Visceral and subcutaneous fat are rough estimates derived from body fat, age and sex. None of these values are a medical diagnosis.</string>
+    <string name="settings_version">Version %1$s</string>
+</resources>
